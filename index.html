@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CRM Dashboard - Manage Contacts with Ease</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A powerful, user-friendly CRM dashboard to manage contacts and tasks directly in your browser. Features local storage persistence, Excel import/export, and a modern, cosmic-themed interface. Perfect for freelancers and small businesses.">
+    <meta name="keywords" content="CRM, Customer Relationship Management, React, Tailwind CSS, Local Storage, Small Business, Freelancer, Contact Management, Task Management">
+    <meta name="author" content="HSINI MOHAMED">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:title" content="Simple CRM Dashboard - Manage Contacts with Ease">
+    <meta property="og:description" content="A powerful, user-friendly CRM dashboard to manage contacts and tasks directly in your browser. Features local storage persistence, Excel import/export, and a modern, cosmic-themed interface.">
+    <meta property="og:image" content="https://picsum.photos/1200/630">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://example.com/">
+    <meta property="twitter:title" content="Simple CRM Dashboard - Manage Contacts with Ease">
+    <meta property="twitter:description" content="A powerful, user-friendly CRM dashboard to manage contacts and tasks directly in your browser. Features local storage persistence, Excel import/export, and a modern, cosmic-themed interface.">
+    <meta property="twitter:image" content="https://picsum.photos/1200/630">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Simple CRM Dashboard",
+          "url": "https://example.com/",
+          "description": "A clean, responsive CRM dashboard for managing contacts and tasks, with data persistence using browser Local Storage.",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://example.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "WebApplication",
+          "name": "Simple CRM Tool",
+          "url": "https://example.com/",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "All",
+          "browserRequirements": "Requires HTML5, CSS3, JavaScript. Modern browsers supported.",
+          "description": "A lightweight CRM tool for contact and task management using local browser storage.",
+          "featureList": [
+            "Contact Management (CRUD)",
+            "Task Tracking",
+            "Local Storage Persistence",
+            "Responsive Design"
+          ],
+          "screenshot": "https://picsum.photos/1280/720?grayscale",
+          "creator": {
+            "@type": "Person",
+            "name": "HSINI MOHAMED",
+            "url": "https://github.com/hsinidev"
+          }
+        },
+        {
+          "@type": "Article",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://example.com/guide"
+          },
+          "headline": "The Ultimate Guide to CRM for Small Businesses: From Data Organization to Cloud Power",
+          "description": "A comprehensive 3500-word guide on leveraging Client Relationship Management (CRM) systems for small business growth, data organization, and the strategic value of centralized tracking with solutions like Firebase and Cloud Firestore.",
+          "image": "https://picsum.photos/1200/800",
+          "author": {
+            "@type": "Person",
+            "name": "HSINI MOHAMED"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Simple CRM Dashboard",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://example.com/favicon.svg"
+            }
+          },
+          "datePublished": "2023-10-27",
+          "dateModified": "2023-10-27"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is a CRM and why do small businesses need one?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A CRM (Customer Relationship Management) system is a technology for managing all your company’s relationships and interactions with customers and potential customers. For small businesses, it's crucial for organizing contacts, tracking sales opportunities, and improving customer service, leading to increased profitability and efficiency."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does this CRM tool store my data?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This particular CRM tool uses your browser's Local Storage. This means all your data is stored directly on your computer in your web browser. It's fast and private, but not suitable for team collaboration as the data is not shared across different computers or users."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I use Firebase with a small business CRM?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely. Firebase, particularly its Cloud Firestore database, is an excellent backend for a small business CRM. It provides real-time data synchronization, robust security rules, and scalability, allowing you to build a collaborative, cloud-based CRM that can grow with your business."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
