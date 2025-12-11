@@ -1,0 +1,5 @@
+{
+  "name": "Simple CRM Dashboard",
+  "description": "A clean, responsive CRM dashboard for managing contacts and tasks, with data persistence using browser Local Storage. Features an animated cosmic theme and comprehensive SEO content.",
+  "requestFramePermissions": []
+}
