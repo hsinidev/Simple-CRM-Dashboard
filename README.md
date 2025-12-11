@@ -14,7 +14,7 @@ A professional, high-performance Customer Relationship Management (CRM) dashboar
 ## 🚀 Live Demo
 
 Experience the full application live:  
-👉 **[doodax.com](https://doodax.com)** (Opens in a new tab)
+👉 **[doodax.com](https://doodax.com/tools/simple-crm-dashboard/index.html)** (Opens in a new tab)
 
 ---
 
